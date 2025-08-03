@@ -9,4 +9,3 @@ ALTER GIT REPOSITORY WS_DEMO_GIT_REPO FETCH;
 
 LS @WS_DEMO_GIT_REPO/branches/main;
 
-execute immediate from @WS_DEMO_GIT_REPO/branches/main/WS_DEMO_DB/DEPLOY
