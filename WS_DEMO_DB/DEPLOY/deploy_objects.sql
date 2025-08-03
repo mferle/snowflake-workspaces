@@ -1,0 +1,1 @@
+execute immediate from '../EX/create_CUSTOMER_EX.sql';
