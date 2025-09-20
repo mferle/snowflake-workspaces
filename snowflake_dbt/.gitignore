@@ -1,4 +1,4 @@
-
+# Ignore dbt artifacts
 target/
-dbt_packages/
+dbt_modules/
 logs/

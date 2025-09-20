@@ -1,0 +1,11 @@
+snowflake_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: DATA_ENGINEER
+      warehouse: DATA_ENGINEER_WH
+      database: WS_DEMO_DB
+      schema: EX
+      account: ' '
+      user: ' '
