@@ -15,5 +15,5 @@ execute immediate from '../MART/create_DIM_PART.sql';
 execute immediate from '../MART/create_FACT_ORDERS.sql';
 
 -- to deploy all objects
-ALTER GIT REPOSITORY WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO FETCH;
-execute immediate from @WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO/branches/main/WS_DEMO_DB/DEPLOY/deploy_objects.sql;
+--ALTER GIT REPOSITORY WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO FETCH;
+--execute immediate from @WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO/branches/main/WS_DEMO_DB/DEPLOY/deploy_objects.sql;
