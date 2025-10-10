@@ -1,5 +1,5 @@
 -- ------------------------------------
--- Set up GIT integration for all users
+-- Set up API integration for all users
 -- ------------------------------------
 USE ROLE ACCOUNTADMIN;
 CREATE OR REPLACE API INTEGRATION WS_DEMO_GIT_INTEGRATION
