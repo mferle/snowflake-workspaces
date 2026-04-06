@@ -1,0 +1,10 @@
+manifest_version: 2
+type: DCM_PROJECT
+
+default_target: DEV
+
+targets:
+  DEV:
+    account_identifier: TDMCUQC.SUB67644
+    project_name: WS_DEMO_DB.DEPLOY.MF_PROJECT
+    project_owner: DATA_ENGINEER
